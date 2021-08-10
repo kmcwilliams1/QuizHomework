@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -10,21 +10,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vh;
-    background-color: rosybrown;
+    background-color: darkslateblue;
 }
-
+/* 
 body.correct{
     background-color: green;
 }
 
 body.incorrect{
     background-color: red;
-}
+} */
 
 .container{
-    max-width: fit-content;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: whitesmoke;
     padding: 10px;
     border-radius: 1em;
@@ -52,3 +53,4 @@ body.incorrect{
 .hide{
     display: none;
 }
+

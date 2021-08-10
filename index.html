@@ -12,15 +12,22 @@
         <div id="questionContainer" class="hide">
             <div id="question">Question</div>
             <div id="answerButtons">
+                <!-- <button class="button">Answer</button>
                 <button class="button">Answer</button>
                 <button class="button">Answer</button>
-                <button class="button">Answer</button>
-                <button class="button">Answer</button>
+                <button class="button">Answer</button> -->
             </div>
         </div>
         <div class="controls">
-            <button class="startButton" class="button">Start</button>
+            <button id="startButton" class="button">Start</button>
+                <!-- <p class = "rules">Correct answers award you 5 more seconds, incorrect answers take away 5 seconds. Total score is equal to time left </p> -->
+            <div id = "timer"></div>
         </div>
+        <div id = "scores" class="hide">High Scores
+            <input type="text" id = "initials"/>
+            <button class = "button">submit name</button>
+        </div>
+
     </div>
     <script src="script.js"></script>
 </body>
